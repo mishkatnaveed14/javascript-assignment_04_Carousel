@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider || Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="carousel">
+        <div class="left_img">
+            <img src="./images/image1.jpg" alt="image" class="img1 img active" onclick="changeimg(this)">
+            <img src="./images/image2.jpg" alt="image" class="img2 img active" onclick="changeimg(this)">
+            <img src="./images/image3.jpg" alt="image" class="img3 img active" onclick="changeimg(this)">
+            <img src="./images/image4.jpg" alt="image" class="img4 img active" onclick="changeimg(this)">
+            <img src="./images/image5.jpg" alt="image" class="img5 img active" onclick="changeimg(this)">
+        </div>
+        <div class="center_img">
+            <img src="./images/image1.jpg" alt="" id="center_img">
+
+            <button id="prev" class="arrow right" onclick="previmg()">&#10095;</button>
+            <button id="next" class="arrow left" onclick="nextimg()">&#10094;</button>
+        </div>
+
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
